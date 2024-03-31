@@ -79,7 +79,7 @@ import urllib3
 **Disable Warnings**:
 
 ```python
-`urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)`
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ```
 
 This disables the warnings related to insecure requests. It's commonly used to suppress warnings when making requests to sites with invalid or self-signed SSL certificates.
@@ -87,7 +87,7 @@ This disables the warnings related to insecure requests. It's commonly used to s
 **Proxies Configuration**:
 
 ```python
-`proxies = {'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'}`
+proxies = {'http': 'http://127.0.0.1:8080', 'https': 'http://127.0.0.1:8080'}
 ```
 
 This sets up proxy settings. The script is configured to use a proxy server running on `127.0.0.1` at port `8080` for both HTTP and HTTPS requests. This is useful for intercepting and inspecting the traffic using tools like Burp Suite.
