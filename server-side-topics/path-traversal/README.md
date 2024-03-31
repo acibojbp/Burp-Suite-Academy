@@ -54,7 +54,7 @@ On Windows, both `../` and `..\` are valid directory traversal sequences. The fo
 
 `https://insecure-website.com/loadImage?filename=..\..\..\windows\win.ini`
 
-[**Lab 01 - File path traversal, simple case**]((/server-side-topics/path-traversal/lab-01/README.md#file-path-traversal-simple-case))
+[**Lab 01 - File path traversal, simple case**](/server-side-topics/path-traversal/lab-01/README.md#file-path-traversal-simple-case)
 
 ## Common obstacles to exploiting path traversal vulnerabilities
 
