@@ -10,7 +10,7 @@ Understanding server-side vulnerabilities is crucial for anyone involved in web 
 
 - SQL Injection
 - Authentication
-- [Path Traversal](/path-traversal/README.md#path-traversal)
+- [Path Traversal](/server-side-topics/path-traversal/README.md#path-traversal)
 - Command Injection
 - Business Logic Vulnerabilities
 - Information Disclosure
