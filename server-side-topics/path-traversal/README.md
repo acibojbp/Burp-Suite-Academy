@@ -3,15 +3,16 @@
 ![directory-traversal](https://github.com/acibojbp/Burp-Suite-Academy/assets/164168280/1df3c2bb-6acb-42e3-928d-4635f0b7e4a5)
 
 ## Contents
-### [Reading arbitrary files via path traversal](#reading-arbitrary-files-via-path-traversal-2)
-- File path traversal, simple case
-### [Common obstacles to exploiting path traversal vulnerabilities](#common-obstacles-to-exploiting-path-traversal-vulnerabilities-2)
-- File path traversal, traversal sequences blocked with absolute path bypass
-- File path traversal, traversal sequences stripped non-recursively
-- File path traversal, traversal sequences stripped with superfluous URL-decode
-- File path traversal, validation of start of path
-- File path traversal, validation of file extension with null byte bypass
-### [How to prevent a path traversal attack](#how-to-prevent-a-path-traversal-attack-2)
+- [Reading arbitrary files via path traversal](#reading-arbitrary-files-via-path-traversal)
+  - File path traversal, simple case
+- [Common obstacles to exploiting path traversal vulnerabilities](#common-obstacles-to-exploiting-path-traversal-vulnerabilities)
+  - File path traversal, traversal sequences blocked with absolute path bypass
+  - File path traversal, traversal sequences stripped non-recursively
+  - File path traversal, traversal sequences stripped with superfluous URL-decode
+  - File path traversal, validation of start of path
+  - File path traversal, validation of file extension with null byte bypass
+- [How to prevent a path traversal attack](#how-to-prevent-a-path-traversal-attack)
+
   
 ## What is path traversal?
 
