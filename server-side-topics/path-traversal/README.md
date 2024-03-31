@@ -4,7 +4,7 @@
 
 ## Contents
 - [Reading arbitrary files via path traversal](#reading-arbitrary-files-via-path-traversal)
-  - File path traversal, simple case
+  - [File path traversal, simple case](/server-side-topics/path-traversal/lab-01/README.md#file-path-traversal-simple-case)
 - [Common obstacles to exploiting path traversal vulnerabilities](#common-obstacles-to-exploiting-path-traversal-vulnerabilities)
   - File path traversal, traversal sequences blocked with absolute path bypass
   - File path traversal, traversal sequences stripped non-recursively
@@ -54,7 +54,8 @@ On Windows, both `../` and `..\` are valid directory traversal sequences. The fo
 
 `https://insecure-website.com/loadImage?filename=..\..\..\windows\win.ini`
 
-**Lab 01 - File path traversal, simple case**
+[**Lab 01 - File path traversal, simple case**]((/server-side-topics/path-traversal/lab-01/README.md#file-path-traversal-simple-case))
+
 ## Common obstacles to exploiting path traversal vulnerabilities
 
 Many applications that place user input into file paths implement defenses against path traversal attacks. These can often be bypassed.
