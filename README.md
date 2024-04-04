@@ -12,11 +12,11 @@ Feel free to explore my journey through the learning paths in sequence. For spec
 - Cross-site Request Forgery (CSRF)
 - File Upload Vulnerabilities
 
-| [Server-side Topics](/server-side-topics/README.md#server-side-vulnerabilities) | Client-side Topics                   | Advanced Topics                |
+| [Server-side Topics](/server-side-topics/server-side-topics.md#server-side-vulnerabilities) | Client-side Topics                   | Advanced Topics                |
 | ---------------------------------- | ------------------------------------ | ------------------------------ |
 | SQL Injection                      | Cross-site Scripting (XSS)           | Insecure Deserialization       |
 | Authentication                     | Cross-site Request Forgery (CSRF)    | Web LLM Attacks                |
-| [Path Traversal](/server-side-topics/path-traversal/README.md#path-traversal)                     | Cross-origin Resource Sharing (CORS) | GraphQL API Vulnerabilities    |
+| [Path Traversal](/server-side-topics/path-traversal/path-traversal.md#path-traversal)                     | Cross-origin Resource Sharing (CORS) | GraphQL API Vulnerabilities    |
 | Command Injection                  | Clickjacking                         | Server-side Template Injection |
 | Business Logic Vulnerabilities     | DOM-based Vulnerabilities            | Web Cache Poisoning            |
 | Information Disclosure             | WebSockets                           | HTTP Host Header Attacks       |
