@@ -5,7 +5,7 @@ Welcome to my Burp Suite Academy Write-Ups repository. Here, I share my detailed
 Feel free to explore my journey through the learning paths in sequence. For specific topics, simply scroll down for more details.
 
 ## Learning Paths
-- Server-side Vulnerabilities
+- [Server-side Vulnerabilities](/server-side-vulnerabilities/server-side-vulnerabilities.md)
 - SQL Injection
 - API Testing
 - Web LLM Attacks
