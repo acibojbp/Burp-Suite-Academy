@@ -44,4 +44,28 @@ SSRF vulnerabilities allow attackers to initiate harmful server-to-server reques
 Basic SSRF against the local server
 Basic SSRF against another back-end system
 
+## File Upload Vulnerabilities
 
+![file-upload-vulnerabilities](https://github.com/acibojbp/Burp-Suite-Academy/assets/164168280/b8e18357-af31-4752-bd9b-2c36578de206)
+
+Any feature that allows users to upload files to the server's filesystem poses inherent risks. Neglecting to implement appropriate restrictions on the types of files users can upload may allow attackers to execute arbitrary system commands, granting them complete control over the server.
+
+Remote code execution via web shell upload
+Web shell upload via Content-Type restriction bypass
+
+## OS Command Injection
+
+![os-command-injection](https://github.com/acibojbp/Burp-Suite-Academy/assets/164168280/57531897-bd8b-4d93-b71f-df6cb93014cc)
+
+Command injection vulnerabilities allow attackers to run arbitrary operating system (OS) commands on the server, granting them complete control over the server and compromising both the application and its data.
+
+OS command injection, simple case
+
+## SQL Injection
+
+![sql-injection](https://github.com/acibojbp/Burp-Suite-Academy/assets/164168280/4f87cd27-15b4-4c7c-b94f-3ed269e30997)
+
+SQL injection is a well-known vulnerability that has been the cause of numerous high-profile data breaches. It allows attackers to manipulate the queries sent by the application to its database, potentially accessing sensitive data from any table within the database.
+
+SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+SQL injection vulnerability allowing login bypass
