@@ -24,6 +24,8 @@ https://0a5700da038af37982ad984100db00b2.web-security-academy.net/image?filename
 
 And with this we have solved the lab!
 
+## Python Script
+
 Python script to automate:
 
 ```python
@@ -59,6 +61,7 @@ if __name__ == "__main__":
     main()
 ```
 
+## Analysis
   
 This Python script is designed to exploit a directory traversal vulnerability in a web application. Directory traversal is a type of attack that allows an attacker to access directories and files that are outside the intended directory.
 
