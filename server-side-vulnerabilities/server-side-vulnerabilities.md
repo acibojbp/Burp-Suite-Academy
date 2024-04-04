@@ -36,9 +36,13 @@ Path traversal, also referred to as directory traversal, vulnerabilities allow a
 Access controls are implemented to restrict users from accessing data or features they are not authorized to use. Broken access controls pose significant security risks and are considered critical vulnerabilities. Additionally, they can expand the attack surface, potentially exposing other vulnerabilities.
 
 Unprotected admin functionality
+
 Unprotected admin functionality with unpredictable URL
+
 User role controlled by request parameter
+
 User ID controlled by request parameter, with unpredictable user IDs
+
 User ID controlled by request parameter with password disclosure
 
 ## Authentication
@@ -48,6 +52,7 @@ User ID controlled by request parameter with password disclosure
 Authentication verifies the identity of a user to ensure they are who they claim to be. For instance, a login system requiring a username and password is a common authentication method. However, flawed authentication systems can enable attackers to guess legitimate credentials by automating numerous login attempts using specialized tools such as Burp Intruder.
 
 Username enumeration via different responses
+
 2FA simple bypass
 
 ## Server-side Request Forgery
@@ -57,6 +62,7 @@ Username enumeration via different responses
 SSRF vulnerabilities allow attackers to initiate harmful server-to-server requests to unintended URLs. Since the server making the request often has a trusted relationship with other network systems, attackers can potentially exploit this to access data, features, and services that should not be accessible to external users.
 
 Basic SSRF against the local server
+
 Basic SSRF against another back-end system
 
 ## File Upload Vulnerabilities
@@ -66,6 +72,7 @@ Basic SSRF against another back-end system
 Any feature that allows users to upload files to the server's filesystem poses inherent risks. Neglecting to implement appropriate restrictions on the types of files users can upload may allow attackers to execute arbitrary system commands, granting them complete control over the server.
 
 Remote code execution via web shell upload
+
 Web shell upload via Content-Type restriction bypass
 
 ## OS Command Injection
@@ -83,4 +90,5 @@ OS command injection, simple case
 SQL injection is a well-known vulnerability that has been the cause of numerous high-profile data breaches. It allows attackers to manipulate the queries sent by the application to its database, potentially accessing sensitive data from any table within the database.
 
 SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+
 SQL injection vulnerability allowing login bypass
