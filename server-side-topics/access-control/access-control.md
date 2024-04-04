@@ -12,6 +12,31 @@ If you're familiar with the basic concepts behind access control vulnerabilities
 
 - [View all access control labs](https://portswigger.net/web-security/all-labs#access-control-vulnerabilities)
 
+## Contents
+
+[What is access control?](#what-is-access-control)
+
+[Examples of broken access controls](#examples-of-broken-access-controls)
+
+- [Vertical privilege escalation](#vertical-privilege-escalation)
+	- [Unprotected admin functionality](./lab-01/lab-01.md)
+ 	- [Unprotected admin functionality with unpredictable URL](./lab-02/lab-02.md)
+	- [User role controlled by request parameter](./lab-03/lab-03.md)
+	- [User role can be modified in user profile](./lab-04/lab-04.md)
+	- [URL-based access control can be circumvented](./lab-05/lab-05.md)
+	- [Method-based access control can be circumvented](./lab-06/lab-06.md)
+- [Horizontal privilege escalation](#horizontal-privilege-escalation)
+	- [User ID controlled by request parameter](./lab-07/lab-07.md)
+	- [User ID controlled by request parameter, with unpredictable user IDs](./lab-08/lab-08.md)
+	- [User ID controlled by request parameter with data leakage in redirect](./lab-09/lab-09.md)
+	- [User ID controlled by request parameter with password disclosure](./lab-10/lab-10.md)
+	- [Insecure direct object references](./lab-11/lab-11.md)
+- [Access control vulnerabilities in multi-step processes](#access-control-vulnerabilities-in-multi-step-processes)
+	- [Multi-step process with no access control on one step](./lab-12/lab-12.md)
+	- [Referer-based access control](./lab-13/lab-13.md)
+
+[How to prevent access control vulnerabilities](#how-to-prevent-access-control-vulnerabilities)
+
 ## What is access control?
 
 Access control is the application of constraints on who or what is authorized to perform actions or access resources. In the context of web applications, access control is dependent on authentication and session management:
