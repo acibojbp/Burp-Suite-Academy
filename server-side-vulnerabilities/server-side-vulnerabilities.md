@@ -35,15 +35,15 @@ Path traversal, also referred to as directory traversal, vulnerabilities allow a
 
 Access controls are implemented to restrict users from accessing data or features they are not authorized to use. Broken access controls pose significant security risks and are considered critical vulnerabilities. Additionally, they can expand the attack surface, potentially exposing other vulnerabilities.
 
-Unprotected admin functionality
+[Unprotected admin functionality](../server-side-topics/access-control/lab-01/lab-01.md)
 
-Unprotected admin functionality with unpredictable URL
+[Unprotected admin functionality with unpredictable URL](../server-side-topics/access-control/lab-02/lab-02.md)
 
-User role controlled by request parameter
+[User role controlled by request parameter](../server-side-topics/access-control/lab-03/lab-03.md)
 
-User ID controlled by request parameter, with unpredictable user IDs
+[User ID controlled by request parameter, with unpredictable user IDs](../server-side-topics/access-control/lab-08/lab-08.md)
 
-User ID controlled by request parameter with password disclosure
+[User ID controlled by request parameter with password disclosure](../server-side-topics/access-control/lab-10/lab-10.md)
 
 ## Authentication
 
