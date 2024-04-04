@@ -6,6 +6,21 @@ Common types of server-side vulnerabilities include SQL Injection, Authenticatio
 
 Understanding server-side vulnerabilities is crucial for anyone involved in web application security, as they are often the target of malicious attackers aiming to gain unauthorized access, manipulate data, or execute arbitrary code on the server.
 
+## Contents
+[Path Traversal](#path-traversal)
+
+[Access Control](#access-control)
+
+[Authentication](#authentication)
+
+[Server-side Request Forgery](#server-side-request-forgery)
+
+[File Upload Vulnerabilities](#file-upload-vulnerabilities)
+
+[OS Command Injection](#os-command-injection)
+
+[SQL Injection](#sql-injection)
+
 ## Path Traversal
 
 ![directory-traversal](https://github.com/acibojbp/Burp-Suite-Academy/assets/164168280/fb5222be-50ca-4fc2-bc55-b7871c751fc3)
